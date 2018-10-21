@@ -5,8 +5,8 @@ pipeline {
     stages {
         stage('Build') { 
             steps { 
-                sh "cp /Users/vineetsharma/Documents/catweb/app.py /Users/vineetsharma/DOCKER/catweb/"
-                sh "cp /Users/vineetsharma/Documents/catweb/index.html /Users/vineetsharma/DOCKER/catweb/templates/"
+                sh "cp /Users/Shared/Jenkins/Home/workspace/catweb/app.py /Users/vineetsharma/DOCKER/catweb/"
+                sh "cp /Users/Shared/Jenkins/Home/workspace/catweb/index.html /Users/vineetsharma/DOCKER/catweb/templates/"
             }
         }
     }
